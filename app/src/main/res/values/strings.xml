@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="textview">TextView</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="pre_o_lcool_3_18">Preço Álcool 3,18</string>
+    <string name="pre_o_gasolina_5_50">Preço Gasolina 5,50</string>
+    <string name="saiba_a_melhor_op_o_de_abastecimento_do_seu_carro">Saiba a melhor opção de abastecimento do seu carro !</string>
+    <string name="todo">TODO</string>
+</resources>
