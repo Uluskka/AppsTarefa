@@ -6,16 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="311dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="432dp"
-        android:text="saiba a melhor op o de abastecimento do seu carro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
         android:id="@+id/editPrecoAlcool"
         android:layout_width="wrap_content"
@@ -24,7 +14,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="number"
-        android:text="preco_Alcool 3.18"
+        android:text="preço Alcool 3,18"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +28,7 @@
         android:autofillHints=""
         android:ems="10"
         android:inputType="number"
-        android:text="preco gasolina_5.50"
+        android:text="preço gasolina 5,50"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,9 +38,9 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:text="Calcular"
+        android:layout_marginTop="80dp"
         android:onClick="calcular"
+        android:text="Calcular"
         android:textColorLink="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,9 +52,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="180dp"
         android:text="resultado"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.869" />
 
     <ImageView
         android:id="@+id/imageView8"
